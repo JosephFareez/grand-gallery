@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./css/question-styles.css">
+    <title>Задать вопрос</title>
+
+</head>
+<body>
+<div class="left-panel">
+    <div class="button-box">
+        <a href="index.html">Главная</a>
+    </div>
+     <div class="button-box">
+      <a href="projects.html">Наши работы</a>
+    </div>
+
+    <div class="button-box">
+        <a href="call-back.html">Обратный звонок</a>
+    </div>
+    <div class="button-box">
+        <a href="address.html">Наш адрес</a>
+    </div>
+    <div class="button-box">
+        <a href="advices.html">Советы</a>
+    </div>
+</div>
+
+<div class="content">
+    <div class="title-block">
+        <img src="./logo.png" alt="logo" class="logo">
+        <h1>ООО "ГРАНД ГАЛЕРЕЯ"</h1>
+    </div>
+
+      <form class="form" method="post" action="./done.html">
+        <div class="mb-3">
+          <label for="name" class="form-label">Фамилия и Имя: <span class="required">*</span></label>
+          <input type="text" id="name" name="name" class="form-input" title="Пожалуйста, вводите только буквы" placeholder="Ф.И.О" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="tel" class="form-label">Тел.: <span class="required">*</span></label>
+          <input type="tel" id="tel" name="tel" class="form-input" pattern="[0-9]*" maxlength="13" title="Пожалуйста, вводите только цифры" placeholder="+7 (___) ___-__-__" required>
+        </div>
+        <div class="mb-3">
+           <label for="email" class="form-label">E-mail: <span class="required">*</span></label>
+           <input type="email" id="email" name="email" class="form-input" title="Пожалуйста, введите ваш адрес электронной почты" placeholder="someone@example.com" required>
+        </div>
+       <div class="mb-3">
+          <label for="text" class="form-label">Тема вопроса: <span class="required">*</span></label>
+          <textarea id="text" name="text" class="form-input" rows="5" placeholder="Введите ваш вопрос (минимум 200 символов)" title="Введите ваш вопрос (минимум 200 символов)" required></textarea>
+       </div>
+
+
+        <div class="mb-3 form-button">
+            <input type="reset" class="btn btn-outline-danger" value="Сбросить">
+            <input type="submit" class="btn btn-outline-primary" value="Отправить сообщение">
+        </div>
+      </form>
+  </div>
+
+<footer>
+    <div class="copyrights">
+        <p>&copy; 2020 - 2023 ООО "ГРАНД ГАЛЕРЕЯ" ОГРН 1207700288289 от 12 августа 2020 г.</p>
+        <p>Designed and created by <a href="mailto:python.man@ro.ru">pythonman</a></p>
+    </div>
+</footer>
+</body>
+</html>
+
