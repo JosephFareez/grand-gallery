@@ -26,7 +26,7 @@ https://grand-gallery.ru/
 Этот проект распространяется под лицензией MIT. Подробности см. в файле LICENSE.
 # Структура проекта
 
-- D:\sites\gallary\
+- gallary\
   - .idea
     - inspectionProfiles
       - profiles_settings.xml
